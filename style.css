@@ -1,3 +1,45 @@
-footer, div.hero {
+* {
+    font-family: 'roboto';
+}
+
+.nav-main, .hero, footer {
     background-color: #1F2937;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav-main > ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul > li {
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-text > h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
