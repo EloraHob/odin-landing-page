@@ -1,7 +1,35 @@
+
+/* General Rules */
 * {
     font-family: 'roboto';
 }
 
+html, body {
+    margin: 0;
+}
+
+.button {
+    color: white;
+    background-color: #3882F6;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 100px;
+    height: 33px;
+}
+
+.dark-font {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.landing-img {
+    width: 518px;
+    height: auto;
+    border-radius: 45px;
+    margin: 70px 10px 128px 10px;
+}
+
+/* The Navigation Section */
 .nav-main, .hero, footer {
     background-color: #1F2937;
 }
@@ -9,37 +37,122 @@
 .nav-main {
     display: flex;
     justify-content: space-between;
+    padding: 0px 497px;
 }
 
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
+.nav-item {
+    margin: 24px 0px 0px 30px;
 }
 
-.nav-main > ul {
-    display: flex;
-    list-style-type: none;
+.secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-ul > li {
-    padding: 10px;
+.logo, h4 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 800;
 }
 
+/* The Hero Section */
 .hero {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.hero-text {
+    padding-top: 70px;
+    padding-right: 60px;
+    max-width: 448px;
 }
 
 .hero-text > h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 5px 0px 0px 0px;
 }
 
 .hero-img {
     display: flex;
     justify-content: center; 
     align-items: center;
+}
+
+/* The Information Section */
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 105px;
+}
+
+.information > h2 {
+    margin: 35px 0px;
+}
+
+.content, .category, .nav-main > div {
+    display: flex;
+}
+
+.category {
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+    padding: 0px 15px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+
+}
+
+.category > p {
+    color: #4B5563;
+    text-align: center;
+    margin-top: 7px;
+}
+
+/* The Quote Section */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 111px 611px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.cite {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    margin: 0px 15px 0px 0px;
+}
+
+/* The Call to Action Section */
+.call-to-action {
+    padding: 111px 497px;
+}
+
+.banner {
+    background-color: #3882F6;
+    border-radius: 25px;
+}
+
+.banner > .button {
+    border-color: white;
+}
+
+
+/* The Footer */
+footer > p {
+    text-align: center;
+    padding: 60px 40px;
 }
