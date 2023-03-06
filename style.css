@@ -11,10 +11,12 @@ html, body {
 .button {
     color: white;
     background-color: #3882F6;
+    border: 3px solid white;
     font-size: 18px;
     border-radius: 8px;
     width: 100px;
     height: 33px;
+    font-weight: bold;
 }
 
 .dark-font {
@@ -138,13 +140,28 @@ html, body {
 
 /* The Call to Action Section */
 .call-to-action {
-    padding: 111px 497px;
+    padding: 90px 497px;
 }
 
 .banner {
     background-color: #3882F6;
-    border-radius: 25px;
+    border-radius: 8px;
+    padding: 55px 168px 0px 109px;
+    height: 115px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
 }
+
+.container > p, h4 {
+    color: #F9FAF8;
+    margin: 0px;
+
+}
+
+.btn {
+    padding-top: 20px;
+} 
 
 .banner > .button {
     border-color: white;
